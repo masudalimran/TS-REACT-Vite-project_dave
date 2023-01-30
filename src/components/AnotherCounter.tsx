@@ -37,7 +37,7 @@ export default function AnotherCounter() {
           onChange={handleTextChange}
           title="Input"
           id="demo-input"
-          className="px-2"
+          className="px-2 focus:bg-green-300 border-2 rounded border-green-500 focus:border-blue-300 outline-none"
         />
         <p className="w-full">{text}</p>
       </form>
